@@ -1,0 +1,176 @@
+<?php include "inc/top.inc.php"; ?>
+
+    <h1>List of available packages</h1>
+    <p><b>Last updated:Mon Jun 5 2017</b></p>
+
+    <p>PostgreSQL RPM Building Project released the whole package set for all available distros and architectures. Currently, we <a href="/rpmchart.php">support</a> Fedora 25,24, RHEL/CentOS/Oracle Linux/Scientific Linux 7,6 and PostgreSQL 10,9.6,9.5,9.4,9.3 and 9.1. Please note that we <b> actively</b> only support Fedora 24+ and RHEL/CentOS 6+ on newer branches.</p>
+	<p> Here is the full package list:<br />
+	<ul>
+                    <li>apache-maven</li>
+                    <li>armadillo</li>
+                    <li>barman</li>
+                    <li>barman-cli</li>
+                    <li>bgw_replstatus</li>
+                    <li>boxinfo</li>
+                    <li>bucardo</li>
+                    <li>CGAL</li>
+                    <li>check_pgactivity</li>
+                    <li>check_postgres</li>
+                    <li>citus</li>
+                    <li>cstore_fdw</li>
+                    <li>cyanaudit</li>
+                    <li>dbi-link</li>
+                    <li>emaj</li>
+                    <li>gdal</li>
+                    <li>geoip</li>
+                    <li>geos</li>
+                    <li>hypopg</li>
+                    <li>informix_fdw</li>
+                    <li>ip4r</li>
+                    <li>ldap_fdw</li>
+                    <li>libgeotiff</li>
+                    <li>libmemcached</li>
+                    <li>libpqxx</li>
+                    <li>luapgsql</li>
+                    <li>mailchimp_fdw</li>
+                    <li>mhash</li>
+                    <li>mongo_fdw</li>
+                    <li>multicorn</li>
+                    <li>mysqlcompat</li>
+                    <li>mysql_fdw</li>
+                    <li>mysqlmigrator</li>
+                    <li>ogr_fdw</li>
+                    <li>ora2pg</li>
+                    <li>oracle_fdw</li>
+                    <li>orafce</li>
+                    <li>PAF</li>
+                    <li>pagila</li>
+                    <li>pam-pgsql</li>
+                    <li>passwordcheck_cracklib</li>
+                    <li>perl-DBD-Oracle</li>
+                    <li>pg_activity</li>
+                    <li>pgadmin3</li>
+                    <li>pgadmin4-babel</li>
+                    <li>pgadmin4-python-backports-csv</li>
+                    <li>pgadmin4-python-beautifulsoup4</li>
+                    <li>pgadmin4-python-blinker</li>
+                    <li>pgadmin4-python-crypto</li>
+                    <li>pgadmin4-python-dateutil</li>
+                    <li>pgadmin4-python-fixtures</li>
+                    <li>pgadmin4-python-flask</li>
+                    <li>pgadmin4-python-flask-babel</li>
+                    <li>pgadmin4-python-flask-gravatar</li>
+                    <li>pgadmin4-python-flask-htmlmin</li>
+                    <li>pgadmin4-python-flask-login</li>
+                    <li>pgadmin4-python-flask-mail</li>
+                    <li>pgadmin4-python-flask-migrate</li>
+                    <li>pgadmin4-python-flask-principal</li>
+                    <li>pgadmin4-python-flask-security</li>
+                    <li>pgadmin4-python-flask-sqlalchemy</li>
+                    <li>pgadmin4-python-flask-wtf</li>
+                    <li>pgadmin4-python-html5lib</li>
+                    <li>pgadmin4-python-htmlmin</li>
+                    <li>pgadmin4-python-importlib</li>
+                    <li>pgadmin4-python-itsdangerous</li>
+                    <li>pgadmin4-python-jinja2</li>
+                    <li>pgadmin4-python-markupsafe</li>
+                    <li>pgadmin4-python-mimeparse</li>
+                    <li>pgadmin4-python-passlib</li>
+                    <li>pgadmin4-python-pbr</li>
+                    <li>pgadmin4-python-pyrsistent</li>
+                    <li>pgadmin4-python-simplejson</li>
+                    <li>pgadmin4-python-speaklater</li>
+                    <li>pgadmin4-python-sqlalchemy</li>
+                    <li>pgadmin4-python-sqlparse</li>
+                    <li>pgadmin4-python-werkzeug</li>
+                    <li>pgadmin4-python-wtforms</li>
+                    <li>pgadmin4-pytz</li>
+                    <li>pgadmin4-v1</li>
+                    <li>pgagent</li>
+                    <li>pgaudit</li>
+                    <li>pgbackman</li>
+                    <li>pgbackrest</li>
+                    <li>pgbadger</li>
+                    <li>pgbconsole</li>
+                    <li>pg_bloat_check</li>
+                    <li>pgbouncer</li>
+                    <li>pgbson</li>
+                    <li>pg_bulkload</li>
+                    <li>pg_catcheck</li>
+                    <li>pgcenter</li>
+                    <li>pgcli</li>
+                    <li>pgcluu</li>
+                    <li>pg_comparator</li>
+                    <li>pgdg-yum</li>
+                    <li>pgespresso</li>
+                    <li>pg_filedump</li>
+                    <li>pgfincore</li>
+                    <li>pg_fkpart</li>
+                    <li>pgFormatter</li>
+                    <li>pghoard</li>
+                    <li>pgimportdoc</li>
+                    <li>pg_jobmon</li>
+                    <li>pgloader</li>
+                    <li>pgmemcache</li>
+                    <li>pg_partman</li>
+                    <li>pg_pathman</li>
+                    <li>pgplsh</li>
+                    <li>pgpoolAdmin-36</li>
+                    <li>pgpool-ha</li>
+                    <li>pgpool-II-36</li>
+                    <li>pg_qualstats</li>
+                    <li>pg_repack</li>
+                    <li>pgreplay</li>
+                    <li>pgrouting</li>
+                    <li>pg_sample</li>
+                    <li>pgsi</li>
+                    <li>pg_slotsync</li>
+                    <li>pgsphere</li>
+                    <li>pg_stat_kcache</li>
+                    <li>pgtap</li>
+                    <li>pg_top</li>
+                    <li>pg_track_settings</li>
+                    <li>pguri</li>
+                    <li>pgxnclient</li>
+                    <li>pldebugger</li>
+                    <li>pljava</li>
+                    <li>plpgsql_check</li>
+                    <li>plproxy</li>
+                    <li>plr</li>
+                    <li>plruby</li>
+                    <li>plv8</li>
+                    <li>postcode</li>
+                    <li>postgis22</li>
+                    <li>postgis23</li>
+                    <li>postgresql</li>
+                    <li>postgresql_autodoc</li>
+                    <li>postgresql-jdbc</li>
+                    <li>postgresql-odbc</li>
+                    <li>postgresql-tcl</li>
+                    <li>postgresql-unit</li>
+                    <li>powa</li>
+                    <li>prefix</li>
+                    <li>proj</li>
+                    <li>psycopg2</li>
+                    <li>PyGreSQL</li>
+                    <li>pyrseas</li>
+                    <li>repmgr</li>
+                    <li>ruby-pg</li>
+                    <li>sfcgal</li>
+                    <li>split_postgres_dump</li>
+                    <li>table_version</li>
+                    <li>tail_n_mail</li>
+                    <li>tds_fdw</li>
+                    <li>wal-e</li>
+	</ul>
+	</p>
+
+
+	<p><i>Please note that some packages may not be available on some combinations, depending on the PostgreSQL/OS version.</i></p>
+
+  ﻿ </div>
+  </div>
+</div>
+
+<?php include "inc/bottom.inc.php"; ?>
+
