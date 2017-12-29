@@ -105,20 +105,20 @@ h3 {
 <ul>
 	<li>&nbsp;&nbsp;&nbsp;<span style="text-decoration:underline;">News:</span><br /><br />
 </li>
-	<li><a href="/news-fedora27-packages-released.php">Fedora 27 packages released.</a></li>
-	<li><a href="/news-10-packages-released.php">PostgreSQL 10 RPMs released</a></li>
-       <li><a href="/news-packagelist.php">Full package list</a></li>
-	<li><a href="/news-fedora26-packages-released.php">Fedora 26 packages released.</a></li>
-	<li><a href="/news-fedora25-packages-released.php">Fedora 25 packages released.</a></li>
-	<li><a href="news-9.6-packages-released.php">PostgreSQL 9.6 packages released.</a></li>
-	<li><a href="news-9.5-packages-released.php">PostgreSQL 9.5 packages released.</a></li>
-	<li><a href="/news-git-repo-move.php">Moved to git</a></li>
-	<li><a href="/news-9.4-packages-released.php">9.4 packages released.</a></li>
-        <li><a href="/news-rhel7-packages-released.php"> RHEL 7 RPMs released. </a></li>
-      <li><a href="/news-rsync.php">Rsync support is now available</a></li>
-      <li><a href="/news-oracle-linux-support-added.php">Support for Oracle Linux is now available.</a></li>
-      <li><a href="/news-reporpmsv1.php">Repository RPMs are Out </a></li>
-      <li><a href="/news-rhel6-packages-released.php">RHEL 6 packages Released.</a></li>
+	<li><a href="/news/news-fedora27-packages-released.php">Fedora 27 packages released.</a></li>
+	<li><a href="/news/news-10-packages-released.php">PostgreSQL 10 RPMs released</a></li>
+       <li><a href="/news/news-packagelist.php">Full package list</a></li>
+	<li><a href="/news/news-fedora26-packages-released.php">Fedora 26 packages released.</a></li>
+	<li><a href="/news/news-fedora25-packages-released.php">Fedora 25 packages released.</a></li>
+	<li><a href="/news/news-9.6-packages-released.php">PostgreSQL 9.6 packages released.</a></li>
+	<li><a href="/news/news-9.5-packages-released.php">PostgreSQL 9.5 packages released.</a></li>
+	<li><a href="/news/news-git-repo-move.php">Moved to git</a></li>
+	<li><a href="/news/news-9.4-packages-released.php">9.4 packages released.</a></li>
+        <li><a href="/news/news-rhel7-packages-released.php"> RHEL 7 RPMs released. </a></li>
+      <li><a href="/news/news-rsync.php">Rsync support is now available</a></li>
+      <li><a href="/news/news-oracle-linux-support-added.php">Support for Oracle Linux is now available.</a></li>
+      <li><a href="/news/news-reporpmsv1.php">Repository RPMs are Out </a></li>
+      <li><a href="/news/news-rhel6-packages-released.php">RHEL 6 packages Released.</a></li>
       <li><a href="/newsarchive.php">News Archive &gt;&gt;</a></li>
 </ul>
 
