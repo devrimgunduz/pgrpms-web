@@ -1,11 +1,12 @@
 <?php include "inc/top.inc.php"; ?>
 
     <h1>List of available packages</h1>
-    <p><b>Last updated:Mon Jun 5 2017</b></p>
+    <p><b>Last updated:Sat Jan 27 2018</b></p>
 
     <p>PostgreSQL RPM Building Project released the whole package set for all available distros and architectures. Currently, we <a href="/rpmchart.php">support</a> Fedora 25,24, RHEL/CentOS/Oracle Linux/Scientific Linux 7,6 and PostgreSQL 10,9.6,9.5,9.4,9.3 and 9.1. Please note that we <b> actively</b> only support Fedora 24+ and RHEL/CentOS 6+ on newer branches.</p>
 	<p> Here is the full package list:<br />
 	<ul>
+                    <li>amcheck</li>
                     <li>apache-maven</li>
                     <li>armadillo</li>
                     <li>barman</li>
@@ -24,9 +25,13 @@
                     <li>gdal</li>
                     <li>geoip</li>
                     <li>geos</li>
+                    <li>geos36</li>
+                    <li>hdfs_fdw</li>
                     <li>hypopg</li>
                     <li>informix_fdw</li>
                     <li>ip4r</li>
+                    <li>jsquery</li>
+                    <li>ldap2pg</li>
                     <li>ldap_fdw</li>
                     <li>libgeotiff</li>
                     <li>libmemcached</li>
@@ -43,11 +48,11 @@
                     <li>ora2pg</li>
                     <li>oracle_fdw</li>
                     <li>orafce</li>
-                    <li>PAF</li>
+                    <li>PAF-1</li>
+                    <li>PAF-2</li>
                     <li>pagila</li>
                     <li>pam-pgsql</li>
                     <li>passwordcheck_cracklib</li>
-                    <li>perl-DBD-Oracle</li>
                     <li>pg_activity</li>
                     <li>pgadmin3</li>
                     <li>pgadmin4-babel</li>
@@ -64,6 +69,7 @@
                     <li>pgadmin4-python-flask-login</li>
                     <li>pgadmin4-python-flask-mail</li>
                     <li>pgadmin4-python-flask-migrate</li>
+                    <li>pgadmin4-python-flask-paranoid</li>
                     <li>pgadmin4-python-flask-principal</li>
                     <li>pgadmin4-python-flask-security</li>
                     <li>pgadmin4-python-flask-sqlalchemy</li>
@@ -86,8 +92,11 @@
                     <li>pgadmin4-python-wtforms</li>
                     <li>pgadmin4-pytz</li>
                     <li>pgadmin4-v1</li>
+                    <li>pgadmin4-v2</li>
                     <li>pgagent</li>
-                    <li>pgaudit</li>
+                    <li>pgaudit10</li>
+                    <li>pgaudit11</li>
+                    <li>pgaudit12</li>
                     <li>pgbackman</li>
                     <li>pgbackrest</li>
                     <li>pgbadger</li>
@@ -104,6 +113,7 @@
                     <li>pgdg-yum</li>
                     <li>pgespresso</li>
                     <li>pg_filedump</li>
+                    <li>pgexportdoc</li>
                     <li>pgfincore</li>
                     <li>pg_fkpart</li>
                     <li>pgFormatter</li>
@@ -111,17 +121,22 @@
                     <li>pgimportdoc</li>
                     <li>pg_jobmon</li>
                     <li>pgloader</li>
+                    <li>pgMail</li>
                     <li>pgmemcache</li>
-                    <li>pg_partman</li>
+                    <li>pgmp</li>
+                    <li>pg_partaman</li>
                     <li>pg_pathman</li>
                     <li>pgplsh</li>
                     <li>pgpoolAdmin-36</li>
                     <li>pgpool-ha</li>
+                    <li>pgpool-II-35</li>
                     <li>pgpool-II-36</li>
+                    <li>pgpool-II-37</li>
                     <li>pg_qualstats</li>
                     <li>pg_repack</li>
                     <li>pgreplay</li>
-                    <li>pgrouting</li>
+                    <li>pgrouting24</li>
+                    <li>pgrouting25</li>
                     <li>pg_sample</li>
                     <li>pgsi</li>
                     <li>pg_slotsync</li>
@@ -140,8 +155,10 @@
                     <li>plruby</li>
                     <li>plv8</li>
                     <li>postcode</li>
+                    <li>postgis21</li>
                     <li>postgis22</li>
                     <li>postgis23</li>
+                    <li>postgis24</li>
                     <li>postgresql</li>
                     <li>postgresql_autodoc</li>
                     <li>postgresql-jdbc</li>
@@ -150,18 +167,22 @@
                     <li>postgresql-unit</li>
                     <li>powa</li>
                     <li>prefix</li>
-                    <li>proj</li>
+                    <li>proj49</li>
                     <li>psycopg2</li>
                     <li>PyGreSQL</li>
                     <li>pyrseas</li>
+                    <li>python-pgspecial</li>
                     <li>repmgr</li>
                     <li>ruby-pg</li>
+                    <li>rum</li>
                     <li>sfcgal</li>
+		    <li>slony1-22</li>
                     <li>split_postgres_dump</li>
                     <li>table_version</li>
                     <li>tail_n_mail</li>
                     <li>tds_fdw</li>
                     <li>wal-e</li>
+                    <li>www_fdw</li>
 	</ul>
 	</p>
 
